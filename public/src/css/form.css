@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+.form-input {
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    padding: .5rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    margin-bottom: 1rem;
+}
+.form-input::placeholder {
+    color: white;
+}
+.form-btn {
+    border: 1px solid white !important;
+    width: fit-content;
+}
+.form textarea.form-input {
+    height: 100px;
+}
