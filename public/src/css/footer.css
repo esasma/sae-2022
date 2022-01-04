@@ -1,0 +1,22 @@
+footer {
+    text-align: center;
+    background: linear-gradient(180deg, #a31336 20%, #f1370c 80%);
+    color: white;
+    padding: 1rem;
+}
+.footer > .footer-author {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.footer  > div > .footer-btn {
+    color: white;
+    background: none;
+    border: 1px solid white;
+    text-transform: none;
+}
+.footer > .footer-icon {
+    mix-blend-mode: luminosity;
+    width: 10%;
+    padding: 2rem;
+
+}
