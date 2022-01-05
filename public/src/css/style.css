@@ -346,3 +346,12 @@ section:last-child:after {
     background-color: #E23048;
     border-color:var(--orange) ;
 }
+
+.her{
+    margin-top: -175px;
+}
+
+.img--click2{
+    visibility: hidden;
+    z-index: 1;
+}

@@ -5,10 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Futuristic Love</title>
         <link rel="stylesheet" href="public/src/css/style.css">
-        <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js%22%3E"></script>
-        <script src="//unpkg.com/alpinejs"></script>
+        <script defer src="https://unpkg.com/alpinejs"></script>
         <script src="https://animejs.com/lib/anime.min.js"></script>
-        <script src="src/js/fonction.js"></script>
+        <script src="public/src/js/fonction.js"></script>
     </head>
     <body>
         <header>
@@ -27,10 +26,10 @@
             </nav>
         </header>
         <div x-data="{firstImgClick : false}" :class="firstImgClick && 'img--click'" && class="hero" >
-            <div class="hero-content" >
+            <div  class="hero-content">
                 <img class="hero-logo" @click="firstImgClick = !firstImgClick"
                 :class="firstImgClick && 'img--click'" src="public/img/logo.png" alt="logo">
-                <img class="img-radius" class="her" @click="firstImgClick = !firstImgClick"
+                <img class="img-radius her " @click="firstImgClick = !firstImgClick"
                 :class="firstImgClick && 'img--click2'" src="public/img/affiche film Her.jpg" alt="affiche film Her">
                 <h1>Futuristic
                     <span>Love</span>
