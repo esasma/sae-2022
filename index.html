@@ -6,7 +6,7 @@
         <title>Futuristic Love</title>
         <link rel="stylesheet" href="public/src/css/style.css">
         <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js%22%3E"></script>
-        <script src="//unpkg.com/alpinejs" defer></script>
+        <script src="//unpkg.com/alpinejs"></script>
         <script src="https://animejs.com/lib/anime.min.js"></script>
         <script src="src/js/fonction.js"></script>
     </head>
@@ -26,10 +26,12 @@
                 </ul>
             </nav>
         </header>
-        <div >
+        <div x-data="{firstImgClick : false}" :class="firstImgClick && 'img--click'" && class="hero" >
             <div class="hero-content" >
                 <img class="hero-logo" @click="firstImgClick = !firstImgClick"
                 :class="firstImgClick && 'img--click'" src="public/img/logo.png" alt="logo">
+                <img class="her" @click="firstImgClick = !firstImgClick"
+                :class="firstImgClick && 'img--click2'" src="public/img/affiche film Her.jpg" alt="affiche film Her">
                 <h1>Futuristic
                     <span>Love</span>
                 </h1>
@@ -45,8 +47,6 @@
                 <span class="section-subtitle">le livre</span>
                 <h3 class="section-title p-3">Transhumanisme et société</h3>
                 <img src="public/img/couverture livre.jpg" alt="Le transhumanisme">
-                <img class="her" @click="firstImgClick = !firstImgClick"
-                :class="firstImgClick && 'img--click2'" src="public/img/affiche film Her.jpg" alt="affiche film Her">
                 <p class="section-text p-3">Le transhumanisme prône l’usage des sciences afin d’améliorer l’espèce humaine, en augmentant sa performance physique et mentale.</p>
                 <button class="section-btn">En savoir plus</button>
             </section>
