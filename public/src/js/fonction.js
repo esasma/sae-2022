@@ -26,7 +26,7 @@ function descendreLegende() {
 /*carrousel*/
 
 function carrousel3Images() {
-    var images153 = document.querySelectorAll('.image153');
+    var images153 = document.querySelectorAll('.image');
     let d = 2000;
     let delta = 1000;
 
@@ -40,8 +40,8 @@ function carrousel3Images() {
 
     anim153.add({
         targets: images153,
-        translateX: [{value: '500', duration: d},
-                     {value: '-500', duration: 0, delay: function(img,ind) {
+        translateX: [{value: '268', duration: d},
+                     {value: '-268', duration: 0, delay: function(img,ind) {
                          if (ind == 0) return (2*delta)+d;
                          if (ind == 1) return delta;
                         return 0;
