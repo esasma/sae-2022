@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Futuristic Love</title>
         <link rel="stylesheet" href="public/src/css/style.css">
+        <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js%22%3E"></script>
+        <script src="//unpkg.com/alpinejs" defer></script>
+        <script src="https://animejs.com/lib/anime.min.js"></script>
         <script src="src/js/fonction.js"></script>
     </head>
     <body>
@@ -23,9 +26,10 @@
                 </ul>
             </nav>
         </header>
-        <div class="hero">
-            <div class="hero-content">
-                <img class="hero-logo" src="public/img/logo.png" alt="logo">
+        <div >
+            <div class="hero-content" >
+                <img class="hero-logo" @click="firstImgClick = !firstImgClick"
+                :class="firstImgClick && 'img--click'" src="public/img/logo.png" alt="logo">
                 <h1>Futuristic
                     <span>Love</span>
                 </h1>
@@ -40,21 +44,23 @@
             <section>
                 <span class="section-subtitle">le livre</span>
                 <h3 class="section-title p-3">Transhumanisme et société</h3>
-                <img src="public/img/Rectangle%2056.jpg" alt="Le transhumanisme">
+                <img src="public/img/couverture livre.jpg" alt="Le transhumanisme">
+                <img class="her" @click="firstImgClick = !firstImgClick"
+                :class="firstImgClick && 'img--click2'" src="public/img/affiche film Her.jpg" alt="affiche film Her">
                 <p class="section-text p-3">Le transhumanisme prône l’usage des sciences afin d’améliorer l’espèce humaine, en augmentant sa performance physique et mentale.</p>
                 <button class="section-btn">En savoir plus</button>
             </section>
             <section>
                 <span class="section-subtitle">le film</span>
                 <h3 class="section-title p-3">Un amour futuriste</h3>
-                <img src="public/img/Rectangle%2056%20(1).jpg" alt="Film HER">
+                <img src="public/img/affiche film Her.jpg" alt="Film HER">
                 <p class="section-text p-3">Her est un film de science-fiction réalisé par Spike Jonze, racontant l’histoire amoureuse entre un homme et une intelligence artificielle.</p>
                 <button class="section-btn">En savoir plus</button>
             </section>
             <section>
                 <span class="section-subtitle">l’utilité</span>
                 <h3 class="section-title p-3">L’ Homme-Robot</h3>
-                <img src="public/img/Rectangle%2056%20(2).jpg" alt="L’ Homme-Robot">
+                <img src="public/img/Rectangle 56 (2).jpg" alt="L’ Homme-Robot">
                 <p class="section-text p-3">La vision bionique en passant par les organes artificiels... Nombreuses sont les améliorations qui sont réalisables sur le corps humain.</p>
                 <button class="section-btn">En savoir plus</button>
             </section>

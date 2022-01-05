@@ -322,3 +322,14 @@ button.btn-gradient, .section-btn {
 	height: 359px;
     position: absolute;
 }
+
+/*cacher l'image et une autre apparaît*/
+
+.her{
+    margin-top: -175px;
+}
+
+.img--click2{
+    visibility: hidden;
+    z-index: 1;
+}
