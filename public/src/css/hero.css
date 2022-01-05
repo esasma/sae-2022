@@ -21,12 +21,14 @@
     font-size: 4rem;
     line-height: 3.5rem;
 }
+
 .hero > blockquote {
     position: absolute;
     bottom: 15%;
     width: 70%;
     left: 50%;
     transform: translateX(-50%);
+    color: white !important;
 }
 
 .hero > .polygon {
@@ -48,4 +50,39 @@
     left: calc(50% - 5px);
     transform: rotate(45deg) translateX(-50%);
     bottom: 1rem;
+}
+
+.hero h2 {
+    font-size: 44px;
+    margin: 1.5rem 0;
+}
+.hero span {
+    font-size: 25px;
+}
+.hero .hero-img_article2{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 475px !important;
+}
+.hero .hero-images{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.hero .hero-images img {
+    width: 50%;
+    max-width: 300px;
+}
+.hero .hero-images .hero-img_humain {
+    position: relative;
+    left: -10%;
+}
+.hero .hero-images .hero-img_robot {
+    margin-left: auto;
 }

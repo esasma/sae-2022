@@ -8,31 +8,36 @@
         <link rel="stylesheet" href="public/src/css/style.css">
         <script src="public/src/js/fonction.js"></script>
         <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
-		<script src="https://animejs.com/lib/anime.min.js"></script>
+        <script src="https://animejs.com/lib/anime.min.js"></script>
     </head>
-    <body class="linear-gradient">
-        <header>
-            <div class="branding">
-                <h1>Futuristic<br>Love</h1>
-                <img src="public/img/logo.png" alt="Logo">
-            </div>
-            <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
-                <div class="nav-toggle-bar"></div>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="article1.html">Transhumanisme et société</a></li>
-                    <li><a href="article2.html">Un amour futuriste</a></li>
-                    <li><a href="article3.html">L'homme-robot</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="a-propos.html">À propos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h2> L'homme-robot </h2>
+    <body>
+        <div class="hero">
+            <header>
+                <div class="branding">
+                    <h1>Futuristic<br>Love</h1>
+                    <img src="public/img/logo.png" alt="Logo">
+                </div>
+                <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="article1.html">Transhumanisme et société</a></li>
+                        <li><a href="article2.html">Un amour futuriste</a></li>
+                        <li><a href="article3.html">L'homme-robot</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2> L'homme-robot</h2>
             <span> Le corps humain 2.0 </span>
+            <img class="hero-img_article3" src="public/img/robot-hand.png" alt="main robot et main humaine">
+            <div class="down-arrow"></div>
+            <div class="polygon"></div>
+        </div>
+        <main>
             <h4> Les prothèses cybermétiques</h4>
             <p>
                 Elles sont les plus visibles et les plus utiles pour
@@ -53,8 +58,8 @@
                 Pistorius.
             </p>
             <figure class="visionneuse9">
-                <img src="public/img/Photo-pistorius%201.jpg" alt="image de Oscar Pistorius"
-                x-on:mouseover="monterLegende('figcaption9');"
+                <img src="public/img/Photo-pistorius%201.jpg" alt="image de Oscar Pistorius" 
+                x-on:mouseover="monterLegende('figcaption9');" 
                 x-on:mouseleave="descendreLegende();">
                 <figcaption class="figcaption figcaption9"> Oscar Pistorius lors d’une course</figcaption>
             </figure>
@@ -74,8 +79,8 @@
                 lumières.
             </p>
             <figure class="visionneuse10">
-                <img src="public/img/image%201.jpg" alt="Argus 2"
-                x-on:mouseover="monterLegende('figcaption10');"
+                <img src="public/img/image%201.jpg" alt="Argus 2" 
+                x-on:mouseover="monterLegende('figcaption10');" 
                 x-on:mouseleave="descendreLegende();">
                 <figcaption class="figcaption figcaption10"> L’Argus 2</figcaption>
             </figure>
@@ -102,8 +107,8 @@
                 diabétiques et censés réguler le taux d’insuline.
             </p>
             <figure class="visionneuse11">
-                <img src="public/img/Rectangle%2064.jpg" alt="image de Pancréas Artificiel"
-                x-on:mouseover="monterLegende('figcaption11');"
+                <img src="public/img/Rectangle%2064.jpg" alt="image de Pancréas Artificiel" 
+                x-on:mouseover="monterLegende('figcaption11');" 
                 x-on:mouseleave="descendreLegende();">
                 <figcaption class="figcaption figcaption11"> Pancréas Artificiel</figcaption>
             </figure>
@@ -138,12 +143,13 @@
                 que lorsque vous lirez ceci, beaucoup de projets
                 auront abouti tandis que d’autres auront débutés.
             </p>
-            <h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
-            <img src="public/img/affiche%20film%20Her.jpg" alt="Affiche film Her">
-            <button class=".btn-gradient">Un amour futuriste</button>
-            <img src="public/img/couverture%20livre.jpg" alt="Couverture livre Transhumanisme et
-    société">
-            <button class=".btn-gradient">Transhumanisme et société</button>
+            <div class="view-more">
+                <h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
+                <img class="img-radius" src="public/img/affiche%20film%20Her.jpg" alt="Affiche film Her">
+                <button class="btn-gradient">Un amour futuriste</button>
+                <img class="img-radius" src="public/img/couverture%20livre.jpg" alt="Couverture livre Transhumanisme etsociété">
+                <button class="btn-gradient">Transhumanisme et société</button>
+            </div>
         </main>
         <footer class="footer">
             <h6 class="footer-author">PierrePolJ</h6>

@@ -8,31 +8,39 @@
         <link rel="stylesheet" href="public/src/css/style.css">
         <script src="public/src/js/fonction.js"></script>
         <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
-		<script src="https://animejs.com/lib/anime.min.js"></script>
+        <script src="https://animejs.com/lib/anime.min.js"></script>
     </head>
-    <body class="linear-gradient">
-        <header>
-            <div class="branding">
-                <h1>Futuristic<br>Love</h1>
-                <img src="public/img/logo.png" alt="Logo">
-            </div>
-            <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
-                <div class="nav-toggle-bar"></div>
-            </div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="article1.html">Transhumanisme et société</a></li>
-                    <li><a href="article2.html">Un amour futuriste</a></li>
-                    <li><a href="article3.html">L'homme-robot</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="a-propos.html">À propos</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
+    <body>
+        <div class="hero">
+            <header>
+                <div class="branding">
+                    <h1>Futuristic<br>Love</h1>
+                    <img src="public/img/logo.png" alt="Logo">
+                </div>
+                <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="article1.html">Transhumanisme et société</a></li>
+                        <li><a href="article2.html">Un amour futuriste</a></li>
+                        <li><a href="article3.html">L'homme-robot</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </header>
             <h2> Transhumanisme et société</h2>
             <span> Un courant de pensée pas toujours apprécié </span>
+                <div class="hero-images">
+                    <img class="hero-img_humain" src="public/img/image-transhumanisme-2.png" alt="humain">
+                    <img class="hero-img_robot" src="public/img/image-transhumanisme.png" alt="robot">
+                </div>
+            <div class="polygon"></div>
+            <div class="down-arrow"></div>
+        </div>
+        <main>
             <h4> Qu’est-ce que le transhumanisme ?</h4>
             <p>
                 Le transhumanisme est apparu en Europe du
@@ -75,8 +83,8 @@
                 paradoxalement la mort de la vie.”
             </blockquote>
             <figure class="visionneuse2">
-                <img src="public/img/photo-2-transhumanisme%201%20(1).jpg" alt="Photo transhumanisme"
-                x-on:mouseover="monterLegende(figcaption2);"
+                <img src="public/img/photo-2-transhumanisme%201%20(1).jpg" alt="Photo transhumanisme" 
+                x-on:mouseover="monterLegende(figcaption2);" 
                 x-on:mouseleave="descendreLegende();">
                 <figcaption class="figcaption figcaption2"> La technologie au dessus de l’homme</figcaption>
             </figure>
@@ -106,10 +114,10 @@
                 plus longtemps et en bonne santé..”
             </blockquote>
             <figure class="visionneuse3">
-                <img src="public/img/Image%2012%202%20(1).jpg" alt="image du Docteur Nir Barzilai"
-                x-on:mouseover="monterLegende();"
+                <img src="public/img/Image%2012%202%20(1).jpg" alt="image du Docteur Nir Barzilai" 
+                x-on:mouseover="monterLegende(figcaption3);"
                 x-on:mouseleave="descendreLegende();">
-                <figcaption class="figcaption"> Docteur Nir Barzilai</figcaption>
+                <figcaption class="figcaption figcaption3"> Docteur Nir Barzilai</figcaption>
             </figure>
             <p>
                 Niel Harbisson s’est fait implanter dans le cerveau
@@ -121,10 +129,10 @@
                 “cyborg”.
             </p>
             <figure class="visionneuse4">
-                <img src="public/img/Image%2013%201.jpg" alt="image de Neil Harbisson et son dispositif"
-                x-on:mouseover="monterLegende();"
+                <img src="public/img/Image%2013%201.jpg" alt="image de Neil Harbisson et son dispositif" 
+                x-on:mouseover="monterLegende(figcaption4);" 
                 x-on:mouseleave="descendreLegende();">
-                <figcaption class="figcaption"> Neil Harbisson et son dispositif</figcaption>
+                <figcaption class="figcaption figcaption4"> Neil Harbisson et son dispositif</figcaption>
             </figure>
             <p>
                 Affymétrix a déjà développé une puce ADN qui
@@ -135,11 +143,13 @@
                 que lorsque vous lirez ceci, beaucoup de projets
                 auront abouti tandis que d’autres auront débutés.
             </p>
-            <h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
-            <img src="public/img/Rectangle%2056%20(2).jpg" alt="L'utilité L’Homme-Robot">
-            <button class=".btn-gradient"> L’Homme-Robot</button>
-            <img src="public/img/affiche%20film%20Her.jpg" alt="Affiche film Her">
-            <button class=".btn-gradient">Un amour futuriste</button>
+            <div class="view-more">
+                <h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
+                <img class="img-radius" src="public/img/Rectangle%2056%20(2).jpg" alt="L'utilité L’Homme-Robot">
+                <button class="btn-gradient"> L’Homme-Robot</button>
+                <img class="img-radius" src="public/img/affiche%20film%20Her.jpg" alt="Affiche film Her">
+                <button class="btn-gradient">Un amour futuriste</button>
+            </div>
         </main>
         <footer class="footer">
             <h6 class="footer-author">PierrePolJ</h6>

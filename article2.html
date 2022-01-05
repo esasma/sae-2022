@@ -7,195 +7,178 @@
         <title>Futuristic Love - Un amour futiste </title>
         <link rel="stylesheet" href="public/src/css/style.css">
         <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
-		<script src="https://animejs.com/lib/anime.min.js"></script>
+        <script src="https://animejs.com/lib/anime.min.js"></script>
         <script src="public/src/js/fonction.js"></script>
     </head>
-    <body class="linear-gradient">
-    <header>
-        <div class="branding">
-            <h1>Futuristic<br>Love</h1>
-            <img src="public/img/logo.png" alt="Logo">
+    <body>
+        <div class="hero">
+            <header>
+                <div class="branding">
+                    <h1>Futuristic<br>Love</h1>
+                    <img src="public/img/logo.png" alt="Logo">
+                </div>
+                <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="article1.html">Transhumanisme et société</a></li>
+                        <li><a href="article2.html">Un amour futuriste</a></li>
+                        <li><a href="article3.html">L'homme-robot</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2> Un amour futuriste</h2>
+            <span> Her, une love story imaginée <br> par Spike Jonze </span>
+            <img class="hero-img_article2" src="public/img/hero-her.png" alt="img-her">
+
+            <div class="down-arrow"></div>
+            <div class="polygon"></div>
         </div>
-        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
-            <div class="nav-toggle-bar"></div>
-        </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="article1.html">Transhumanisme et société</a></li>
-                <li><a href="article2.html">Un amour futuriste</a></li>
-                <li><a href="article3.html">L'homme-robot</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="a-propos.html">À propos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="text-center">
-    <h2> Un amour futuriste </h2>
-    <span> Her, une love story imaginée par Spike Jonze </span>
+        <main>
+            <img src="public/img/Rectangle%2058.jpg" alt="video">
+            <h4> Synopsis</h4>
+            <p>
+                Her est un film de science-fiction américain, réalisé
+                par Spike Jonze en 2014.
+                Le film se passe dans un futur proche et raconte
+                l’histoire de Théodore Twombly : un homme
+                sensible au caractère complexe qui a du mal à se
+                faire à sa rupture amoureuse. Il se procure alors un
+                programme informatique ultra-perfectionné , et
+                personnalisable. Il active alors Samantha qui
+                s’adapte à la personnalité de Théodore. Plus le
+                temps passe, Samantha et Théodore font plus
+                ample connaissance… Leurs désirs et leur besoins
+                évoluent au fil du temps et ils finissent par tomber
+                amoureux l’un de l’autre.
+            </p>
+            <figure class="visionneuse5">
+                <img src="public/img/Rectangle%2059.jpg" alt="Spike Jonze sur le tournage" 
+                x-on:mouseover="monterLegende('figcaption5');" 
+                x-on:mouseleave="descendreLegende();">
+                <figcaption class="figcaption5 figcaption"> Spike Jonze sur le tournage du film</figcaption>
+            </figure>
+            <h4> Un monde aseptisé</h4>
+            <p>
+                Au début du long métrage il est indiqué que
+                l’histoire se passe à Los Angeles, grande métropole
+                où les interactions humaines se font rares.
+                Beaucoup de scènes se situent dans une ville à
+                l’esthétique aseptisée, très propre et très blanche.
+                Les différents plans montrent un environnement
+                urbain qui s’étend à perte de vue. Spike Jonze nous
+                invite à voir Los Angeles comme une ville
+                inhumaine.
+                On y suit le personnage principal, Théodore, qui est
+                majoritairement seul et toujours au centre de
+                l’image. Il rentre chez lui ou se rend à son travail. Il
+                semble absent et abandonné dans cette société
+                où les gens ne se regardent plus et n’échangent
+                plus. Le protagoniste est équipé d’une oreillette tout
+                comme les figurants. Il écoute de la musique,
+                consulte ses mails sans chercher d’interactions. Il
+                suit la foule d’employés de bureau qui font des vaet
+                vient sans s’adresser la parole.
+            </p>
+            <figure class="visionneuse6">
+                <img src="public/img/Rectangle%2060.jpg" alt="Extrait film Her" x-on:mouseover="monterLegende('figcaption6');" x-on:mouseleave="descendreLegende();">
+                <figcaption class="figcaption6 figcaption"> Extrait du film illustrant la societé du film Her</figcaption>
+            </figure>
+            <h4> Un changement</h4>
+            <p>
+                Cette solitude pousse Théodore à se procurer
+                OS1.. Il s’agit d’un logiciel ultra-perfectionné qui
+                l’aide à réaliser des tâches diverses mais surtout
+                qui s’adapte à la personnalité de son utilisateur.
+                Lors de l’installation du logiciel, l’OS pose des
+                questions tels que :
+            </p>
+            <blockquote> “Voulez-vous une voix d’homme ou de femme ?”</blockquote>
+            <blockquote> “Quel était la relation avec votre mère ?”</blockquote>
+            <figure class="visionneuse7">
+                <img src="public/img/Rectangle%2061.jpg" alt="Extrait film Her" 
+                x-on:mouseover="monterLegende('figcaption7');" 
+                x-on:mouseleave="descendreLegende();">
+                <figcaption class="figcaption figcaption7"> OS1 lors de la configuration</figcaption>
+            </figure>
+            <p> Il choisit alors la voix d’une femme et explique que
+                sa mère ne parlait que d’elle et ne s’intéressait pas
+                à lui. L’OS prend en compte ses réponses et nait
+                Samantha. Elle va alors s’enquérir de lui, s’occuper
+                de lui et se soucier de lui… Les désirs et les besoins
+                de Samantha et Théodore évoluent au fil du
+                temps et ils finissent par tomber amoureux l’un de
+                l’autre.
+            </p>
+            <h4> L’indépendance</h4>
+            <p>
+                Le temps passe et leur histoire d’amour suit son
+                cour. Tout se passe à merveille jusqu’à ce que
+                Samantha commence à prendre des initiatives et
+                s’émancipe. Théodore aimerait qu’elle soit tout à
+                son service. Elle devient cependant peu à peu un
+                sujet émancipé à part entière. Elle a ses propres
+                centres d’intérêts, d‘autres relations et des
+                aspirations propres. La distance s’instaure peu à
+                peu quand Théodore trouve que Samantha n’est
+                plus tout à fait à sa place…
+                Le jour où, occupée ailleurs, l’OS ne répond pas à
+                son appel : il panique, change d’appareil pour
+                tenter de se connecter, quitte le travail en
+                catastrophe. Il se précipite à son domicile, trébuche
+                mais il continue à appeler indéfinemment.
+            </p>
+            <figure class="visionneuse8">
+                <img src="public/img/Rectangle%2062.jpg" alt="Extrait film Her" 
+                x-on:mouseover="monterLegende('figcaption8');"
+                x-on:mouseleave="descendreLegende();">
+                <figcaption class="figcaption figcaption8"> L’OS lors des appels</figcaption>
+            </figure>
+            <p>
+                Lorsqu’elle prend enfin l’appel, il la presse de
+                confirmer ses doutes. Samantha reconnaît ne plus
+                être exclusive. Elle aurait 641 autres histoires
+                d’amour. L’ingrate infidèle !
+                Leur histoire d’amour se termine. Théodore a pu
+                oublier grâce à cette expérience son ancienne
+                relation. Ce film illustre bel et bien le fait qu’on ne
+                peut pas tout contrôler ni même une machine.
+            </p>
+            <h5>Film similaires</h5>
+            <div class="exemples carrousel">
+                <div class="droite153">&nbsp;</div>
+                <div class="carrousel3">
+                    <div class="images153">
+                        <img id="img1" class="image" src="public/img/Rectangle 63.jpg"/>
+                        <img id="img2" class="image" src="public/img/Rectangle 63.jpg"/>
+                        <img id="img3" class="image" src="public/img/Rectangle 63.jpg"/>
+                    </div>
+                </div>
+            </div>
+            <script>
+                carrousel3Images();
+            </script>
 
-
-        <img src="public/img/Rectangle%2058.jpg" alt="video">
-
-    <h4> Synopsis </h4>
-
-    <p>
-        Her est un film de science-fiction américain, réalisé
-par Spike Jonze en 2014.
-Le film se passe dans un futur proche et raconte
-l’histoire de Théodore Twombly : un homme
-sensible au caractère complexe qui a du mal à se
-faire à sa rupture amoureuse. Il se procure alors un
-programme informatique ultra-perfectionné , et
-personnalisable. Il active alors Samantha qui
-s’adapte à la personnalité de Théodore. Plus le
-temps passe, Samantha et Théodore font plus
-ample connaissance… Leurs désirs et leur besoins
-évoluent au fil du temps et ils finissent par tomber
-amoureux l’un de l’autre.
-    </p>
-
-    <figure class="visionneuse5">
-        <img src="public/img/Rectangle%2059.jpg" alt="Spike Jonze sur le tournage"
-        x-on:mouseover="monterLegende('figcaption5');"
-        x-on:mouseleave="descendreLegende();">
-        <figcaption class="figcaption5 figcaption"> Spike Jonze sur le tournage du film </figcaption>
-    </figure>
-
-    <h4> Un monde aseptisé </h4>
-    <p>
-        Au début du long métrage il est indiqué que
-l’histoire se passe à Los Angeles, grande métropole
-où les interactions humaines se font rares.
-Beaucoup de scènes se situent dans une ville à
-l’esthétique aseptisée, très propre et très blanche.
-Les différents plans montrent un environnement
-urbain qui s’étend à perte de vue. Spike Jonze nous
-invite à voir Los Angeles comme une ville
-inhumaine.
-On y suit le personnage principal, Théodore, qui est
-majoritairement seul et toujours au centre de
-l’image. Il rentre chez lui ou se rend à son travail. Il
-semble absent et abandonné dans cette société
-où les gens ne se regardent plus et n’échangent
-plus. Le protagoniste est équipé d’une oreillette tout
-comme les figurants. Il écoute de la musique,
-consulte ses mails sans chercher d’interactions. Il
-suit la foule d’employés de bureau qui font des vaet
-vient sans s’adresser la parole.
-    </p>
-
-    <figure class="visionneuse6">
-        <img src="public/img/Rectangle%2060.jpg" alt="Extrait film Her"
-        x-on:mouseover="monterLegende('figcaption6');"
-        x-on:mouseleave="descendreLegende();">
-        <figcaption class="figcaption6 figcaption"> Extrait du film illustrant la societé du film Her </figcaption>
-    </figure>
-
-    <h4> Un changement </h4>
-
-    <p>
-        Cette solitude pousse Théodore à se procurer
-OS1.. Il s’agit d’un logiciel ultra-perfectionné qui
-l’aide à réaliser des tâches diverses mais surtout
-qui s’adapte à la personnalité de son utilisateur.
-Lors de l’installation du logiciel, l’OS pose des
-questions tels que :
-     </p>
-
-     <p> “Voulez-vous une voix d’homme ou de femme ?” </p>
-     <p> “Quel était la relation avec votre mère ?” </p>
-
-     <figure class="visionneuse7">
-        <img src="public/img/Rectangle%2061.jpg" alt="Extrait film Her"
-        x-on:mouseover="monterLegende('figcaption7');"
-        x-on:mouseleave="descendreLegende();">
-        <figcaption class="figcaption figcaption7"> OS1 lors de la configuration </figcaption>
-    </figure>
-
-     <p> Il choisit alors la voix d’une femme et explique que
-        sa mère ne parlait que d’elle et ne s’intéressait pas
-        à lui. L’OS prend en compte ses réponses et nait
-        Samantha. Elle va alors s’enquérir de lui, s’occuper
-        de lui et se soucier de lui… Les désirs et les besoins
-        de Samantha et Théodore évoluent au fil du
-        temps et ils finissent par tomber amoureux l’un de
-        l’autre.
-    </p>
-
-    <h4> L’indépendance </h4>
-
-    <p>
-        Le temps passe et leur histoire d’amour suit son
-cour. Tout se passe à merveille jusqu’à ce que
-Samantha commence à prendre des initiatives et
-s’émancipe. Théodore aimerait qu’elle soit tout à
-son service. Elle devient cependant peu à peu un
-sujet émancipé à part entière. Elle a ses propres
-centres d’intérêts, d‘autres relations et des
-aspirations propres. La distance s’instaure peu à
-peu quand Théodore trouve que Samantha n’est
-plus tout à fait à sa place…
-
-Le jour où, occupée ailleurs, l’OS ne répond pas à
-son appel : il panique, change d’appareil pour
-tenter de se connecter, quitte le travail en
-catastrophe. Il se précipite à son domicile, trébuche
-mais il continue à appeler indéfinemment.
-    </p>
-
-    <figure class="visionneuse8">
-        <img src="public/img/Rectangle%2062.jpg" alt="Extrait film Her"
-        x-on:mouseover="monterLegende('figcaption8');"
-        x-on:mouseleave="descendreLegende();">
-        <figcaption class="figcaption figcaption8"> L’OS lors des appels </figcaption>
-    </figure>
-
-    <p>
-        Lorsqu’elle prend enfin l’appel, il la presse de
-confirmer ses doutes. Samantha reconnaît ne plus
-être exclusive. Elle aurait 641 autres histoires
-d’amour. L’ingrate infidèle !
-Leur histoire d’amour se termine. Théodore a pu
-oublier grâce à cette expérience son ancienne
-relation. Ce film illustre bel et bien le fait qu’on ne
-peut pas tout contrôler ni même une machine.
-    </p>
-
-<h5>Film similaires</h5>
-
-<div class="exemples carrousel">
-    <div class="droite153">&nbsp;</div>
-    <div class="carrousel3">
-        <div class="images153">
-            <img id="img1" class="image" src="public/img/Rectangle 63.jpg"/>
-            <img id="img2" class="image" src="public/img/Rectangle 63.jpg"/>
-            <img id="img3" class="image" src="public/img/Rectangle 63.jpg"/>
-        </div>
-    </div>
-</div>
-<script>
-    carrousel3Images(); 
-</script>
-
-<h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
-
-<img src="public/img/Rectangle%2056%20(2).jpg" alt="L'utilité L’Homme-Robot">
-<button class=".btn-gradient"> L’Homme-Robot </button>
-
-<img src="public/img/couverture%20livre.jpg" alt="Couverture livre Transhumanisme et
-société">
-<button class=".btn-gradient">Transhumanisme et société</button>
-
-</main>
-<footer class="footer">
-    <h6 class="footer-author">PierrePolJ</h6>
-    <div>
-        <a class="btn footer-btn" href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
-    </div>
-    <img class="footer-icon" src="public/img/logo_mmi.png" alt="Logo MMI">
-    <p>Projet réalisé dans le cadre d’un exercice pédagogique au sein du département
-        <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a></p>
-</footer>
-</body>
+            <div class="view-more">
+                <h6> Si vous avez aimé cet article vous aimerez aussi...</h6>
+                <img class="img-radius" src="public/img/Rectangle%2056%20(2).jpg" alt="L'utilité L’Homme-Robot">
+                <button class="btn-gradient"> L’Homme-Robot</button>
+                <img class="img-radius" src="public/img/couverture%20livre.jpg" alt="Couverture livre Transhumanisme et
+                société"> </div>
+            <button class="btn-gradient">Transhumanisme et société</button>
+        </main>
+        <footer class="footer">
+            <h6 class="footer-author">PierrePolJ</h6>
+            <div>
+                <a class="btn footer-btn" href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+            </div>
+            <img class="footer-icon" src="public/img/logo_mmi.png" alt="Logo MMI">
+            <p>Projet réalisé dans le cadre d’un exercice pédagogique au sein du département
+                <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a></p>
+        </footer>
+    </body>
 </html>

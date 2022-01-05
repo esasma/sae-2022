@@ -1,73 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futuristic Love</title>
-    <link rel="stylesheet" href="src/css/style.css">
-</head>
-<body class="linear-gradient">
-    <h2> A propos - A propos </h2>
-
-<p>
-    Ce site internet a été réalisé dans le cadre d’un
-exercie pédagogique au sein du département
-MMi de Montbéliard.
-</p>
-
-<img class="footer-icon" src="public/img/logo_mmi.png" alt="Logo MMI">
-
-<button class="form-btn btn-gradient" type="submit">EN SAVOIR PLUS</button>
-
-<h3> Projets similaires </h3>
-
-<section>
-    <div>
-        <img src="public/img/Rectangle 49.jpg" alt="affiche film- king la ligne verte">
-        <img src="public/img/Rectangle 48.jpg" alt="affiche film- king la ligne verte"> </div>
-    <p class="section-text p-3">Dead line</p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-
-<section>
-    <div>
-        <img src="public/img/Nazi.jpg" alt="Affiche film nazi">
-        <img src="public/img/Rectangle 48-1.jpg" alt="Affiche film skinhead"> </div>
-    <p class="section-text p-3"> Skins </p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-
-<section>
-    <div>
-        <img src="public/img/anime.jpg" alt="Affiche de l'anime death note">
-        <img src="public/img/avenger.jpg" alt="Affiche du film avenger"> </div>
-    <p class="section-text p-3"> Caedere </p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-
-<section>
-    <div>
-        <img src="public/img/Rectangle 63.jpg" alt="Affiche de therese raquin">
-        <img src="public/img/Rectangle 48-2.jpg" alt=" affiche de meurtre alcatraz"> </div>
-    <p class="section-text p-3"> Pourquoi tuer ?</p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-
-<section>
-    <div>
-        <img src="public/img/Rectangle 49-1.jpg" alt="Affiche film sur les singes">
-        <img src="public/img/singevert.jpg" alt="Affiche film sur les singes"> </div>
-    <p class="section-text p-3"> La vie des singes</p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-
-<section>
-    <div>
-        <img src="public/img/Rectangle 49-3.jpg" alt="Affiche film Hunger Game">
-        <img src="public/img/Rectangle 48-3.jpg" alt="Affiche film Hunger Game"> </div>
-    <p class="section-text p-3">Le monde d'Hunger Games</p>
-    <button class="section-btn">En savoir plus</button>
-</section>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Futuristic Love - À propos</title>
+        <link rel="stylesheet" href="public/src/css/style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <header>
+                <div class="branding">
+                    <h1>Futuristic<br>Love</h1>
+                    <img src="public/img/logo.png" alt="Logo">
+                </div>
+                <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="article1.html">Transhumanisme et société</a></li>
+                        <li><a href="article2.html">Un amour futuriste</a></li>
+                        <li><a href="article3.html">L'homme-robot</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h2>À propos</h2>
+            <p>Ce site internet a été réalisé dans le cadre d’un
+                exercie pédagogique au sein du département
+                MMi de Montbéliard.
+            </p>
+            <img class="mmi-icon" src="public/img/logo_mmi.png" alt="Logo MMI">
+            <button class="form-btn btn-gradient" type="submit">EN SAVOIR PLUS</button>
+            <div class="down-arrow"></div>
+            <div class="polygon"></div>
+        </div>
+        <main>
+            <h3> Projets similaires</h3>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/Rectangle 49.jpg" alt="affiche film- king la ligne verte">
+                    <img src="public/img/Rectangle 48.jpg" alt="affiche film- king la ligne verte">
+                </div>
+                <p class="section-text p-3">Dead line</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/Nazi.jpg" alt="Affiche film nazi">
+                    <img src="public/img/Rectangle 48-1.jpg" alt="Affiche film skinhead"></div>
+                <p class="section-text p-3"> Skins</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/anime.jpg" alt="Affiche de l'anime death note">
+                    <img src="public/img/avenger.jpg" alt="Affiche du film avenger"></div>
+                <p class="section-text p-3"> Caedere</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/Rectangle 63.jpg" alt="Affiche de therese raquin">
+                    <img src="public/img/Rectangle 48-2.jpg" alt=" affiche de meurtre alcatraz"></div>
+                <p class="section-text p-3"> Pourquoi tuer ?</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/Rectangle 49-1.jpg" alt="Affiche film sur les singes">
+                    <img src="public/img/singevert.jpg" alt="Affiche film sur les singes"></div>
+                <p class="section-text p-3"> La vie des singes</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+            <section>
+                <div class="group-img_radius">
+                    <img src="public/img/Rectangle 49-3.jpg" alt="Affiche film Hunger Game">
+                    <img src="public/img/Rectangle 48-3.jpg" alt="Affiche film Hunger Game"></div>
+                <p class="section-text p-3">Le monde d'Hunger Games</p>
+                <button class="section-btn">En savoir plus</button>
+            </section>
+        </main>
+        <footer class="footer">
+            <h6 class="footer-author">PierrePolJ</h6>
+            <div>
+                <a class="btn footer-btn" href="mailto:PierrePolJ@gmail.com">PierrePolJ@gmail.com</a>
+            </div>
+            <img class="footer-icon" src="public/img/logo_mmi.png" alt="Logo MMI">
+            <p>Projet réalisé dans le cadre d’un exercice pédagogique au sein du département
+                <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a></p>
+        </footer>
+    </body>
 </html>
