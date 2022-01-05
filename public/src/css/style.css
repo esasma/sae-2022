@@ -146,3 +146,153 @@ button.btn-gradient, .section-btn {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+/* Image 1 */
+
+.visionneuse {
+    width: 182px;
+    height: 182px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+/*imagen 2*/
+
+.visionneuse2 {
+    width: 381px;
+    height: 207px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+    
+    }
+
+
+
+/*image 3*/
+
+.visionneuse3 {
+    width: 330px;
+    height: 186px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+
+/*image 4*/
+
+.visionneuse4 {
+    width: 314px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+/* image 5*/
+
+
+.visionneuse5 {
+    width: 228px;
+    height: 342px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+/* image 6*/
+
+.visionneuse6 {
+    width: 334px;
+    height: 179px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+/* image 7*/
+
+.visionneuse7 {
+    width: 334px;
+    height: 117px;
+    overflow: hidden;
+}
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+
+/* image 8*/
+
+.visionneuse8 {
+    width: 348px;
+    height: 187px;
+    overflow: hidden;
+}
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+
+/* image 9*/
+
+.visionneuse9 {
+    width: 116px;
+    height: 235px;
+    overflow: hidden;
+}
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+/* image 10*/
+
+.visionneuse10 {
+    width: 289px;
+    height: 135px;
+    overflow: hidden;
+}
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+
+}
+
+/* image 11*/
+
+.visionneuse11 {
+    width: 311px;
+    height: 205px;
+    overflow: hidden;
+}
+
+
+.figcaption {
+    background-color: rgba(255,255,255,0.55);
+
+}
+
+
