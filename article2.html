@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futuristic Love</title>
-    <link rel="src/css/style.css">
-</head>
-<body class="linear-gradient">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Futuristic Love - Un amour futiste </title>
+        <link rel="stylesheet" href="public/src/css/style.css">
+        <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+		<script src="https://animejs.com/lib/anime.min.js"></script>
+    </head>
+    <body class="linear-gradient">
     <header>
         <div class="branding">
             <h1>Futuristic<br>Love</h1>
@@ -52,9 +54,11 @@ ample connaissance… Leurs désirs et leur besoins
 amoureux l’un de l’autre.
     </p>
 
-    <figure>
-        <img src="public/img/Rectangle%2059.jpg" alt="Spike Jonze sur le tournage">
-        <figcaption> Spike Jonze sur le tournage du film </figcaption>
+    <figure class="visionneuse5">
+        <img src="public/img/Rectangle%2059.jpg" alt="Spike Jonze sur le tournage"
+        x-on:mouseover="monterLegende('figcaption5');"
+        x-on:mouseleave="descendreLegende();">
+        <figcaption class="figcaption5 figcaption"> Spike Jonze sur le tournage du film </figcaption>
     </figure>
 
     <h4> Un monde aseptisé </h4>
@@ -80,9 +84,11 @@ suit la foule d’employés de bureau qui font des vaet
 vient sans s’adresser la parole.
     </p>
 
-    <figure>
-        <img src="public/img/Rectangle%2060.jpg" alt="Extrait film Her">
-        <figcaption> Extrait du film illustrant la societé du film Her </figcaption>
+    <figure class="visionneuse6">
+        <img src="public/img/Rectangle%2060.jpg" alt="Extrait film Her"
+        x-on:mouseover="monterLegende('figcaption6');"
+        x-on:mouseleave="descendreLegende();">
+        <figcaption class="figcaption6 figcaption"> Extrait du film illustrant la societé du film Her </figcaption>
     </figure>
 
     <h4> Un changement </h4>
@@ -99,9 +105,11 @@ questions tels que :
      <p> “Voulez-vous une voix d’homme ou de femme ?” </p>
      <p> “Quel était la relation avec votre mère ?” </p>
 
-     <figure>
-        <img src="public/img/Rectangle%2061.jpg" alt="Extrait film Her">
-        <figcaption> OS1 lors de la configuration </figcaption>
+     <figure class="visionneuse7">
+        <img src="public/img/Rectangle%2061.jpg" alt="Extrait film Her"
+        x-on:mouseover="monterLegende('figcaption7');"
+        x-on:mouseleave="descendreLegende();">
+        <figcaption class="figcaption figcaption7"> OS1 lors de la configuration </figcaption>
     </figure>
 
      <p> Il choisit alors la voix d’une femme et explique que
@@ -135,9 +143,11 @@ catastrophe. Il se précipite à son domicile, trébuche
 mais il continue à appeler indéfinemment.
     </p>
 
-    <figure>
-        <img src="public/img/Rectangle%2062.jpg" alt="Extrait film Her">
-        <figcaption> L’OS lors des appels </figcaption>
+    <figure class="visionneuse8">
+        <img src="public/img/Rectangle%2062.jpg" alt="Extrait film Her"
+        x-on:mouseover="monterLegende('figcaption8');"
+        x-on:mouseleave="descendreLegende();">
+        <figcaption class="figcaption figcaption8"> L’OS lors des appels </figcaption>
     </figure>
 
     <p>
@@ -173,6 +183,6 @@ société">
     <p>Projet réalisé dans le cadre d’un exercice pédagogique au sein du département
         <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a></p>
 </footer>
-
+<script src="public/src/js/fonction.js"></script>
 </body>
 </html>
